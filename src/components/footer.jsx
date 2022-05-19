@@ -13,14 +13,7 @@ import {
 export function Footer() {
   return (
     <footer className={footerStyle}>
-      <div className={blurb}>
-        <div className={logos}>
-          <Logo />
-        </div>
-        <strong>gatsby-starter-shopify</strong> change this by editing{" "}
-        <code>src/components/footer.jsx</code>
-      </div>
-      <nav className={links} aria-label="footer">
+      {/* <nav className={links} aria-label="footer">
         <ul className={footerNavList}>
           <li className={footerNavListItem}>
             <a href="https://github.com/gatsbyjs/gatsby-starter-shopify">
@@ -43,9 +36,9 @@ export function Footer() {
             </li>
           )}
         </ul>
-      </nav>
+      </nav> */}
       <div className={copyright}>
-        Copyright &copy; {new Date().getFullYear()} · All rights reserved
+        Copyright &copy; {new Date().getFullYear()} · Beryl Online Store · All rights reserved
       </div>
     </footer>
   )

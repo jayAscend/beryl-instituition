@@ -27,7 +27,7 @@ export function Header() {
     <div className={container}>
       <header className={header}>
         <Link to="/" className={logoCss}>
-          <Logo />
+          Beryl
         </Link>
         <Navigation className={nav} />
         <Link to="/search" className={searchButton}>
