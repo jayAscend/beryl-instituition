@@ -8,3 +8,6 @@ public
 *.log
 yarn.lock
 gatsby-node.old.js
+.prettierignore
+.prettierrc
+package-lock.json

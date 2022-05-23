@@ -7,3 +7,6 @@ import "./src/styles/global.css"
 export const wrapRootElement = ({ element }) => (
   <StoreProvider>{element}</StoreProvider>
 )
+
+
+const cart = () => {};
