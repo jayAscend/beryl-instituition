@@ -30,12 +30,12 @@ export function Header() {
           Beryl
         </Link>
         <Navigation className={nav} />
-        <Link to="/search" className={searchButton}>
-          <SearchIcon />
+        {/* <Link to="/search" className={searchButton}>
+          <SearchIcon/>
         </Link>
-        <CartButton quantity={quantity} />
+        <CartButton quantity={quantity} /> */}
       </header>
-      <Toast show={loading || didJustAddToCart}>
+      {/* <Toast show={loading || didJustAddToCart}>
         {!didJustAddToCart ? (
           "Updating…"
         ) : (
@@ -62,7 +62,7 @@ export function Header() {
             </svg>
           </>
         )}
-      </Toast>
+      </Toast> */}
     </div>
   )
 }
